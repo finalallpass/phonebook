@@ -5,7 +5,7 @@
 
 #include "phonebook_orig.h"
 
-/* original version */
+/* FILL YOUR OWN IMPLEMENTATION HERE! */
 entry *findName(char lastname[], entry *pHead)
 {
     while (pHead != NULL) {
@@ -23,6 +23,5 @@ entry *append(char lastName[], entry *e)
     e = e->pNext;
     strcpy(e->lastName, lastName);
     e->pNext = NULL;
-
     return e;
 }

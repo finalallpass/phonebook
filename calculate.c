@@ -26,7 +26,7 @@ int main(void)
 
     fp = fopen("opt.txt", "r");
     if (!fp) {
-        fp = fopen("orig.txt", "r");
+        fp = fopen("opt.txt", "w");
         if (!fp) {
             printf("ERROR opening input file opt.txt\n");
             exit(0);

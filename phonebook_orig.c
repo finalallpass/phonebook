@@ -5,11 +5,16 @@
 
 #include "phonebook_orig.h"
 
+<<<<<<< HEAD
 /* FILL YOUR OWN IMPLEMENTATION HERE! */
 entry *findName(char lastname[], entry *pHead)
+=======
+/* original version */
+entry *findName(char lastName[], entry *pHead)
+>>>>>>> 66c8e28846ae49a65ad4e21b06f04e0b227ec98b
 {
     while (pHead != NULL) {
-        if (strcasecmp(lastname, pHead->lastName) == 0)
+        if (strcasecmp(lastName, pHead->lastName) == 0)
             return pHead;
         pHead = pHead->pNext;
     }

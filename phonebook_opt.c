@@ -5,8 +5,13 @@
 
 #include "phonebook_opt.h"
 
+<<<<<<< HEAD
 /* initial hash table */
 hashTable *hashInitial()
+=======
+/* FILL YOUR OWN IMPLEMENTATION HERE! */
+entry *findName(char lastName[], entry *pHead)
+>>>>>>> 66c8e28846ae49a65ad4e21b06f04e0b227ec98b
 {
     int i;
     hashTable *ht = NULL;

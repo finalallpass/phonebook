@@ -26,7 +26,6 @@ typedef struct _PHONE_BOOK_ENTRY{
 	struct _PHONE_BOOK_ENTRY  *pNext;
 }entry;
 
-<<<<<<< HEAD
 typedef unsigned int hashIndex;
 
 typedef struct _PHONE_BOOK_HASH_TABLE{
@@ -39,9 +38,9 @@ hashIndex hash(char *key);
 
 entry *findNameHash(char *key, hashTable *ht);
 int appendHash(char *key, hashTable *ht);
-=======
+
 entry *findName(char lastName[], entry *pHead);
 entry *append(char lastName[], entry *e);
->>>>>>> 66c8e28846ae49a65ad4e21b06f04e0b227ec98b
+
 
 #endif
